@@ -1,0 +1,9 @@
+.logo {
+  height: 40px;
+}
+.fm-bg {
+  background: url(../img/farmland.png);
+  background-size: cover;
+  width: 100vw;
+  height: 500px;
+}
