@@ -5,5 +5,38 @@
   background: url(../img/farmland.png);
   background-size: cover;
   width: 100vw;
-  height: 500px;
+  height: 800px;
+  flex-direction: column-reverse;
+}
+.hero {
+  background: linear-gradient(
+    89.39deg,
+    rgba(24, 54, 50, 0.64) 47.78%,
+    rgba(70, 158, 131, 0.64) 159.24%
+  );
+  backdrop-filter: blur(22.5px);
+  height: 514;
+}
+.insight {
+  background-color: #e15534 !important;
+}
+.farmer {
+  height: 450px;
+}
+.future {
+  margin-top: 200px;
+  margin-right: 50px;
+}
+.about {
+  width: 400px;
+  height: 100px;
+}
+.video {
+  width: 510px;
+  height: 350px;
+}
+.hr {
+  color: black;
+  height: 10px;
+  width: 850px;
 }
