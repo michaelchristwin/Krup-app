@@ -46,10 +46,34 @@ function Home() {
           <img src={Video} alt="Svg" className="video" />
         </div>
       </section>
-      <section className="mt-3">
-        <div className="d-flex justify-content-center p-5">
-          <p className="me-2">core Features</p>
+      <section className="mt-3 core">
+        <div className="d-flex justify-content-center pt-3">
+          <p className="me-2">Core Features</p>
           <hr className="hr" />
+        </div>
+        <div className="d-flex justify-content-center">
+          <div className="features me-3">
+            <p className="pt-5">
+              Discover and explore ariable farm lands nearby
+            </p>
+          </div>
+          <div className="features">
+            <p className="pt-5">
+              Study farm soil and choose therb right soil core
+            </p>
+          </div>
+        </div>
+        <div className="d-flex justify-content-center mt-3">
+          <div className="features me-3">
+            <p className="pt-5">
+              Predict high crop yield before planting/farming.
+            </p>
+          </div>
+          <div className="features">
+            <p className="pt-5">
+              Discover and explore ariable farm lands nearby
+            </p>
+          </div>
         </div>
       </section>
     </main>

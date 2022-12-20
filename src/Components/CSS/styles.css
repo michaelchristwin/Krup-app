@@ -40,3 +40,14 @@
   height: 10px;
   width: 850px;
 }
+.core {
+  background-color: #f6f5f0;
+}
+.features {
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  width: 411px;
+  text-align: center;
+  height: 134px;
+}
