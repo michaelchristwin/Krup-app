@@ -83,3 +83,10 @@
   text-align: center;
   height: 134px;
 }
+.svg {
+  height: 63px;
+  width: 63px;
+}
+.features span {
+  font-family: "DM Sans";
+}

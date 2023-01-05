@@ -2,6 +2,9 @@ import NavBar from "../JSX/Navbar";
 import "../CSS/styles.css";
 import Farmer from "../img/farmer.png";
 import Video from "../img/video.png";
+import Garden from "../img/gardening.png";
+import Search from "../img/search.png";
+import Plant from "../img/plant.png";
 
 function Home() {
   return (
@@ -49,27 +52,31 @@ function Home() {
           <hr className="hr" />
         </div>
         <div className="d-flex justify-content-center">
-          <div className="features me-3">
-            <p className="pt-5">
+          <div className="features me-3 py-5">
+            <span>
+              <img src={Search} alt="seacrch icon" className="svg" />
               Discover and explore ariable farm lands nearby
-            </p>
+            </span>
           </div>
-          <div className="features">
-            <p className="pt-5">
+          <div className="features py-5">
+            <span className="pt-5">
+              <img src={Garden} alt="garden" className="svg" />
               Study farm soil and choose therb right soil core
-            </p>
+            </span>
           </div>
         </div>
         <div className="d-flex justify-content-center mt-3">
-          <div className="features me-3">
-            <p className="pt-5">
+          <div className="features me-3 py-5">
+            <span>
+              <img src={Plant} alt="plant" className="svg" />
               Predict high crop yield before planting/farming.
-            </p>
+            </span>
           </div>
-          <div className="features">
-            <p className="pt-5">
+          <div className="features py-5">
+            <span>
+              <img src={Search} alt="search" className="svg" />
               Discover and explore ariable farm lands nearby
-            </p>
+            </span>
           </div>
         </div>
       </section>
