@@ -8,30 +8,28 @@ function Home() {
     <main>
       <NavBar />
       <section className="mt-3">
-        <div className="fm-bg mx-auto d-flex text-white">
-          <section className="hero pt-2 d-flex justify-content-center">
+        <div className="fm-bg mx-auto d-flex text-white mb-3">
+          <section className="hero pt-2 d-flex justify-content-between">
             <div className="future">
-              <span>
-                <h1>The Future of</h1>
+              <span className="d-block future-s">The Future of</span>
+              <span className="d-block future-s">
+                <b className="soil">Soil</b> Productivity
               </span>
-              <span>
-                <h1>Soil Productivity</h1>
-              </span>
-              <p>
+              <p className="future-p">
                 The simplest system to identify and increase <br /> productivity
                 of barren soils through analyses
               </p>
               <button className="btn insight">
                 Get Soil Insight for free now
               </button>
-              <button className="btn">Sign Back In</button>
+              <button className="btn sign ms-2">Sign Back In</button>
             </div>
             <img src={Farmer} alt="Farmer" className="farmer" />
           </section>
         </div>
       </section>
-      <section className="d-flex justify-content-center">
-        <div className="about">
+      <section className="d-flex justify-content-center py-5">
+        <div className="about mt-4 me-4">
           <h1>About Krup</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur. Rhoncus duis lectus in
@@ -39,12 +37,11 @@ function Home() {
             volutpat sollicitudin urna venenatis. Elementum scelerisque platea
             est eget donec id sagittis blandit vestibulum. Mauris lorem ultrices
             sed porttitor quis. Odio vitae dictumst a risus ligula semper. Vel
-            amet volutpat dui platea amet elit euismod. Read more...
+            amet volutpat dui platea amet elit euismod.
+            <span className="more">Read more...</span>
           </p>
         </div>
-        <div>
-          <img src={Video} alt="Svg" className="video" />
-        </div>
+        <img src={Video} alt="Svg" className="ms-4 video" />
       </section>
       <section className="mt-3 core">
         <div className="d-flex justify-content-center pt-3">

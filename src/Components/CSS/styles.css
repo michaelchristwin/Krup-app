@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap");
 .logo {
   height: 40px;
 }
@@ -17,15 +18,46 @@
   backdrop-filter: blur(22.5px);
   height: 514;
 }
+.more {
+  color: red;
+}
 .insight {
   background-color: #e15534 !important;
+  width: 250px;
+  height: 64px;
+  color: white !important;
+}
+.insight:hover {
+  background-color: black !important;
+}
+.sign {
+  background-color: #66000000 !important;
+  color: white !important;
+}
+.sign:hover {
+  background-color: black !important;
+}
+.soil {
+  color: #c5dd53;
 }
 .farmer {
   height: 450px;
+  margin-right: 250px;
 }
 .future {
-  margin-top: 200px;
-  margin-right: 50px;
+  margin-top: 100px;
+  font-family: "DM Sans";
+  margin-left: 250px;
+}
+.future-s {
+  line-height: 83px;
+  font-weight: 700;
+  font-size: 64px;
+}
+.future-p {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 500;
 }
 .about {
   width: 400px;
@@ -36,8 +68,8 @@
   height: 350px;
 }
 .hr {
-  color: black;
-  height: 10px;
+  background-color: #183632;
+  height: 2px !important;
   width: 850px;
 }
 .core {
